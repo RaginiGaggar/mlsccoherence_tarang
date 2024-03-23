@@ -1,2 +1,2 @@
-<h1> We have two branches, namely Main and Backend.</h1>
+<h1> We have three branches, namely Main, Master and Backend.</h1>
 
