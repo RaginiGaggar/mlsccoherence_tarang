@@ -1,1 +1,2 @@
-We have two branches, namely Main and Backend.
+**We have two branches, namely Main and Backend.**
+
