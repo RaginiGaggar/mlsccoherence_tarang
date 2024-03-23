@@ -35,6 +35,19 @@
 });
 
 
+app.get('/api/user/:userId', async (req, res) => {
+  const userId = req.params.userId;
+
+  try {
+    const userTranscripts = await chatTranscript.find({ userId });
+
+    res.json(userTranscripts);
+  } catch (err) {
+    res.status(500).json({ message: 'Server error' });
+  }
+});
+
+
 app.post('/storeData', async (req, res) => {
 try {
  const jsonData = req.body;
