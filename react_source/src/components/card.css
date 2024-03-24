@@ -1,0 +1,61 @@
+.container-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.container {
+  width: 300px;
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(233, 230, 230);
+  margin-right: 20px;
+}
+
+.container-red .div5,
+.container-green .div5 {
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  border-radius: 0 0 20px 20px;
+  width: 100%;
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.container-red .div5 {
+  background-color: rgb(89, 234, 89);
+}
+
+.container-green .div5 {
+  background-color: rgb(233, 54, 54);
+}
+
+.container1 {
+  display: grid;
+  gap: 10px;
+}
+
+.div {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(241, 238, 238);
+}
+
+.div4 {
+  height: 120px;
+}
+
+.div input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0;
+}
+
